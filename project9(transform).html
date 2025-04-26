@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <style>
+            .div1
+            {
+                margin-top: 20px;
+                height: 100px;
+                width: 100px;
+                background-color: black;
+                /* transition-timing-function: ease; */
+                transition: 1s;
+                transform-origin: 100px 100px;
+
+            }
+            .div1:hover
+            {
+                /* transform: scale(2,1 ); */
+                transform: rotate(360deg);
+            }
+            .div2
+            {
+                height: 100px;
+                width: 100px;
+                background-color: red;
+                transition-timing-function:ease-in;
+                transition: 3s;
+            }
+            .div2:hover
+            {
+                transform: scale(2,1 );
+                transition: 1s;
+            }
+            .div3
+            {
+                height: 100px;
+                width: 100px;
+                background-color: pink;
+                transition-timing-function:ease-out;
+                transition: 5s;
+            }
+            .div3:hover
+            {
+                transform: scale(2,1 );
+            }
+            .div4
+            {
+                height: 100px;
+                width: 100px;
+                background-color: yellow;
+                transition-timing-function:ease-in-out;
+                transition: 3s;
+            }
+            .div4:hover
+            {
+                transform: scale(2,1 );
+            }
+            .div5
+            {
+                height: 100px;
+                width: 100px;
+                background-color: green;
+                transition-timing-function:linear;
+                transition: 8s;
+            }
+            .div5:hover
+            {
+                transform: scale(2,1 );
+            }
+            .sun
+            {
+                
+                background-color: black;
+                width: 350px;
+                height: 350px;
+            }
+            img{
+                border-radius:50% ;
+                /* transform-origin:300px 300px; */
+                transition: 2s;
+                margin-top: 80px;
+                margin-left:70px;
+            }
+            img:hover
+            {
+                transform: rotate(360deg);
+            }
+            .para
+            {
+                background-color: cadetblue;
+                overflow: hidden;
+                height: 80px;
+            }
+            .para:hover
+            {
+                height: 220px;
+            }
+            #p1
+            {
+                font-size: 30px;
+                color:brown;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="para">
+            <p id="p1">Hello Guys</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br />
+               Cumque consequatur fugit sequi, dolorem dolore earum soluta maiores totam qui corrupti.<br /> Impedit fuga blanditiis ducimus voluptas
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br />
+               Cumque consequatur fugit sequi, dolorem dolore earum soluta maiores totam qui corrupti.<br /> Impedit fuga blanditiis ducimus voluptas
+            </p>
+        </div>
+        <div class="div1"></div>
+        <br />
+        <div class="div2"></div>
+        <br />
+        <div class="div3"></div>
+        <br />
+        <div class="div4"></div>
+        <br />
+        <div class="div5"></div>
+
+        <div class="sun">
+            <img src="./picture/sun.jpg" height="200px" >
+            
+        </div>
+    </body>
+</html>

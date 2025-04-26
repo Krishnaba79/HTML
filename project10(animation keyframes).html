@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            .hello
+            {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background-color: rgba(0, 128, 0, 0.277);
+                position: relative;
+                animation-duration: 10s;
+                animation-direction:alternate;
+                /* animation-iteration-count: infinite; */
+                animation-name: hello;
+                
+            }
+            img{
+                height: 70px;
+                align-items: center;
+                margin-left: 45px;
+                margin-top: 40px;
+                border-radius: 50%;
+                
+                transition: 5s;
+            }
+            @keyframes hello
+            {
+                0%{background-color:rgba(0, 128, 0, 0.277); left:0px; top:0px;transform: rotate(30deg);}
+                25%{background-color:rgba(48, 198, 158, 0.235);left:100px; top:0px;transform: rotate(90deg);}
+                50%{background-color:rgb(80, 72, 59);left:100px; top:100px;transform: rotate(180deg);}
+                75%{background-color:rgb(134, 131, 128);left:0px; top:100px;transform: rotate(270deg);}
+                100%{background-color:rgb(123, 97, 56);left:0px; top:0px;transform: rotate(360deg);}
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hello">
+            <img src="./picture/stopwatch.webp" >
+        </div>
+    </body>
+</html>

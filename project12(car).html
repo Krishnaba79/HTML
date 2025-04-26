@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+                margin-left: 0px;
+                overflow-y: hidden;
+            }
+            .blue
+            {
+                background-color: lightblue;
+                height: 60vh;
+            }
+            .grey
+            {
+                background-color: grey;
+                height: 40vh;  
+            }
+           
+           
+            .car{
+                position: relative;
+                top:-550px;
+                animation-name: moveright;
+                animation-duration: 5s;
+            }
+            .wheel1{
+                position: relative;
+                left:-400px;
+                top:50px;
+                animation-name: rotate;
+                animation-duration: 5s;
+            }
+            .wheel2{
+                position: relative;
+                left:-250px;
+                top:50px;
+                animation-name: rotate;
+                animation-duration: 5s;
+            }
+
+            @keyframes moveright{
+                0%{
+                    transform: translateX(0px);
+                }
+                100%{
+                    transform: translateX(1100px);
+                }
+            }
+            @keyframes rotate{
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="blue">
+                
+        </div>
+        <div class="grey"></div>
+
+        <div class="car">
+            <img class="carbody" src="./picture/carbody.png" >
+            <img class="wheel1" src="./picture/wheel.png" >
+            <img class="wheel2" src="./picture/wheel.png" >
+        </div>
+        
+    </body>
+</html>
