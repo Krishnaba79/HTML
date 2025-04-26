@@ -1,0 +1,11 @@
+*{
+	color:blue
+}
+#mytext
+{
+	color:red; 
+}
+p
+{
+	color: inherit;
+}
