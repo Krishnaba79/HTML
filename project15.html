@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-color: #EEF3F9;
+        }
+       
+        #container{
+            
+            width: 400px;
+            margin:150px auto 0px auto;
+            border-radius: 15px;
+            box-shadow: 2px 3px 20px #939191;
+            background-color: white;
+            
+        }
+
+        #head{
+            background-color: #20225E;
+            color:white;
+            font-size: 24px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+            padding:20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input,select{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 230px;
+            border-bottom: 1px solid rgb(99, 99, 99);
+        }
+
+        label{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+        #table-container{
+            padding: 10px 70px;
+        }
+
+        table{
+            border-spacing: 0px 30px;
+        }
+        #btn{
+            background-color: #20225E;
+            padding: 18px 16px;
+            color:white;
+            width: 90%;
+            margin-left: 10px;
+            border-radius: 30px;
+            }
+</style>
+</head>
+<body>
+    <div id="container">
+        <div id="head">
+            <H5>Submit a tool</H5>
+        </div>
+        <div id="table-container">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Link to Resource</label><br>
+                        <input type="text" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Category</label><br>
+                        <select name="" id="">
+                            <option value="Ahmedabad">Ahmedabad
+                            </option>
+                            <option value="surat">Surat</option>
+                            <option value="Mumbai">Mumbai</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="" id="btn">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
