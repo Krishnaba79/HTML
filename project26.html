@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <style>
+            .border
+            {
+                float:left;
+            }
+            button
+            {
+                background-color: white;
+            }
+            #hello1
+            {
+                color:red;
+                padding-top:5px;
+                padding-bottom:5px;
+            }
+            #padding
+            {
+                padding-top:10px;
+                padding-bottom:10px;
+            }
+            .padding1
+            {
+                padding-bottom:10px;
+            }
+            
+
+            input,button
+            {
+                border:0px;
+            }
+
+            .color1
+            {
+                border:3px solid blue;
+            }
+            .color2
+            {
+                border:3px solid red;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table class="border">
+        
+        <tr><td><h3>SHYP</h3></td></tr>
+        <tr><td id="padding">Standard</td></tr>
+        <tr><td>Used for main form-New Shipment,</td></tr>
+        <tr><td class="padding1">editing,adding,etc.</td></tr>
+        
+            <tr>
+                <td><input type="text" placeholder="Required Field" /> <span>🔵</span></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Optional Field" /></td>
+            </tr>
+            <tr>
+                <td class="color1"><input type="text" placeholder="Focused" /></td>
+            </tr>
+            <tr>
+                <td class="color1"><input type="text" placeholder="Typing" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Entered" /></td>
+            </tr>
+            <tr>
+                <td class="color2"><input type="text" placeholder="error@shyp" /> <span>❗</span></td>
+            </tr>
+            <tr><td id="hello1">Something is wrong.</td></tr>
+            <tr>
+                <td><select name="option"> 
+                    <option value="Select an option">Select an option</option>
+                    <option value="lala lala">lala lala</option>
+                    <option value="gaga gaga">gaga gaga </option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><select name="option selected"> 
+                    <option value="option selected">option selected</option>
+                    <option value="lala  gaga">lala lala</option>
+                    <option value="gaga lala">gaga gaga </option>
+                </select>
+                </td>
+            </tr>
+        </table>
+
+        <table class="border">
+            <tr><td></td></tr>
+            <tr><td>Tiny</td></tr>
+            <tr><td>Used for entering dimensions</td></tr>
+            <tr>
+                <td ><button>0.0🔹</button></td>
+            </tr>
+            <tr>
+                <td ><button>0.0</button></td>
+            </tr>
+            <tr>
+                <td class="color1"><button>0.0</button></td>
+            </tr>
+            <tr>
+                <td class="color1"><button>4.3</button></td>
+            </tr>
+            <tr>
+                <td ><button>4.3</button></td>
+            </tr>
+            <tr>
+                <td class="color2"> <button>4.3</button></td>
+            </tr>
+
+        </table>
+    </body>
+</html>
